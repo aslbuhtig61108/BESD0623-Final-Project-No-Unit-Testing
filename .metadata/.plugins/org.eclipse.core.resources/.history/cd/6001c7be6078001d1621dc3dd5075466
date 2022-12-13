@@ -1,0 +1,8 @@
+package com.promineotech.finalproject.entity;
+
+public class LIbraryBook {
+
+	private int librarybookid_pk;
+	private int libraryid_fk;
+	private int booknumber_fk;
+}

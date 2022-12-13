@@ -1,0 +1,7 @@
+package com.promineotech.plums.service;
+
+public interface BookService {
+
+	// List<Book> retrieveABook(String isbn, Genre genre);
+
+}

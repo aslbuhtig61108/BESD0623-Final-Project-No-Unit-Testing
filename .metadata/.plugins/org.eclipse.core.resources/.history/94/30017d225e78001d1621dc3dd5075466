@@ -1,0 +1,17 @@
+package com.promineotech.plums.controller;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.promineotech.plums.entity.Book;
+import com.promineotech.plums.entity.Genre;
+
+@Service
+public class BookService {
+
+	public List<Book> retrieveABook(String isbn, Genre genre) {
+		return null;
+	}
+
+}

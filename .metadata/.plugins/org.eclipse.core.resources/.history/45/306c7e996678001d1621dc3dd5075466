@@ -1,0 +1,5 @@
+package com.promineotech.finalproject.dao;
+
+public interface BookDao {
+
+}

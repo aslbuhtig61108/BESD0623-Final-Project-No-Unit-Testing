@@ -1,0 +1,16 @@
+package com.promineotech.plums.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Info;
+import io.swagger.v3.oas.annotations.servers.Server;
+
+@RequestMapping("/books")
+@OpenAPIDefinition(info = @Info(title = "Jeep Sale Service"),
+servers = {@Server(url = "http://localhost:8080", description = "Local server.")})
+public interface BookController {
+
+	
+	
+}
