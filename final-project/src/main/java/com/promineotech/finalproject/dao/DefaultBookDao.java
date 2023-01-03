@@ -6,8 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.RowMapper;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;
 
@@ -38,6 +39,7 @@ public class DefaultBookDao implements BookDao {
 			params.put("isbn", isbn);
 			params.put("genre", genre.toString());
 		
+		// Use a rowmapper to generate a list
 		return jdbcTemplate.query(sql, params, new RowMapper<>() {
 
 			@Override

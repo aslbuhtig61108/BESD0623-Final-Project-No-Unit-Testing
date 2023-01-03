@@ -1,5 +1,0 @@
-package com.promineotech.finalproject.service;
-
-public interface BookService {
-
-}

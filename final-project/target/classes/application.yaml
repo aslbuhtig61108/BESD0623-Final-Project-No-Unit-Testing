@@ -1,8 +1,8 @@
 spring:
    datasource:
-      username: plums
-      password: plums
-      url: jdbc:mysql://localhost:3306/plums
+      username: finalproject
+      password: finalproject
+      url: jdbc:mysql://localhost:3306/finalproject
 
 logging:
   level:

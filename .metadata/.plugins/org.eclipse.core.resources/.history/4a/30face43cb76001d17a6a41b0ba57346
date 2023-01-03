@@ -1,8 +1,0 @@
-package com.promineotech.plums.entity;
-
-public class LibraryBook {
-
-	private int librarybookid_pk;
-	private int libraryid_fk;
-	
-}

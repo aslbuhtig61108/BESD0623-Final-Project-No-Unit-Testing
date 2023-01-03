@@ -57,12 +57,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.promineotech"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="final-project"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

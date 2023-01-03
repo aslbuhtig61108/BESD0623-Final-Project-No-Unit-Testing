@@ -1,0 +1,30 @@
+package com.promineotech.plums.service;
+
+import java.util.List;
+
+import javax.validation.Valid;
+
+import org.springframework.http.ResponseEntity;
+
+import com.promineotech.plums.entity.Book;
+import com.promineotech.plums.entity.Genre;
+import com.promineotech.plums.entity.NewBookRequest;
+
+public interface BookService {
+
+	/**
+	 * 
+	 * @param isbn
+	 * @param genre
+	 * @return
+	 */
+	Book createNewBook(ResponseEntity<Book> response);
+	
+	List<Book> retrieveABook(String isbn, Genre genre);
+
+	List<Book> retrieveAllBooks();
+
+	Book createNewBook(@Valid NewBookRequest newBookEntry);
+
+
+}

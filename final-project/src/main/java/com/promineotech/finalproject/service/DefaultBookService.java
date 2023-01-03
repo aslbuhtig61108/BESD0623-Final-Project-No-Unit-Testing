@@ -1,5 +1,6 @@
 package com.promineotech.finalproject.service;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -19,20 +20,21 @@ public class DefaultBookService implements BookService {
 
 	@Autowired
 	private BookDao bookDao;
-	
-	@Transactional
+
+	@Transactional (readOnly = true)
 	@Override
 	public List<Book> retrieveABook(String isbn, Genre genre) {
-		log.debug("The retrieveABook method was"
+		log.info("The retrieveABook method was"
 			+ " called with an ISBN={} or Genre={}",isbn, genre);
 		List<Book> books = bookDao.retrieveABook(isbn, genre);
 		
 		if (books.isEmpty()) {
 			String errorMessage = String.format("No books were found with"
-				+ "the provided isbn=%s and/or genre=%s", isbn, genre);
+				+ " the provided isbn=%s and/or genre=%s", isbn, genre);
 			throw new NoSuchElementException(errorMessage);
 			
 		}
+		Collections.sort(books);
 		return books;
 	}
 

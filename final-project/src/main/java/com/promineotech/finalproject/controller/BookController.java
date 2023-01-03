@@ -7,10 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
-
 import com.promineotech.finalproject.entity.Book;
 import com.promineotech.finalproject.entity.Genre;
-
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -21,14 +19,14 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.servers.Server;
 
 @RequestMapping("/books")
-@OpenAPIDefinition(info = @Info(title = "Book Entry Service"), servers = {
+@OpenAPIDefinition(info = @Info(title = "Book Management Service"), servers = {
 		@Server(url = "http://localhost:8080", description = "Local server") })
 public interface BookController {
 
 	// formatter:off
 	@Operation(
-		summary = "Returns a list of Books",
-		description = "Returns a list of Book(s) given an ISBN number or a genre",
+		summary = "Returns a list of books",
+		description = "Returns a list of book(s) given an ISBN number or a genre",
 		responses = {
 			@ApiResponse(
 				responseCode = "200",

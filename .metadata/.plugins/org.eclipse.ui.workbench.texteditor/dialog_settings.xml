@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="jdbc"/>
+		<item key="selection" value="Test"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="create"/>
+			<item value="test"/>
+			<item value="swagger"/>
+			<item value="body"/>
+			<item value="springf"/>
 			<item value="jdbc"/>
 			<item value="trans"/>
 			<item value="mysql"/>
-			<item value="conn"/>
 		</list>
 		<list key="replacehistory">
 		</list>

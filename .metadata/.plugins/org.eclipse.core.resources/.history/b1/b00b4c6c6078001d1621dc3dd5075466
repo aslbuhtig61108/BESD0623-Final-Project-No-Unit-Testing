@@ -1,7 +1,0 @@
-package com.promineotech.finalproject.entity;
-
-public class Library {
-
-	private int libraryid_pk;
-	private int booknumber_fk;
-}

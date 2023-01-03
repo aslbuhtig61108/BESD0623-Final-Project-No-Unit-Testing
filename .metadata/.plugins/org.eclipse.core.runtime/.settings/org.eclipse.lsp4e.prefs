@@ -1,0 +1,10 @@
+//org.eclipse.languageserver.languages.bosh/org.springframework.tooling.bosh.cloudconfig=false
+//org.eclipse.languageserver.languages.bosh/org.springframework.tooling.bosh.manifest=false
+//org.eclipse.languageserver.languages.springboot/org.eclipse.jdt.core.javaSource=false
+//org.eclipse.languageserver.languages.springboot/org.springframework.boot.ide.boot.factories=false
+//org.eclipse.languageserver.languages.springboot/org.springframework.boot.ide.properties.application.properties=false
+//org.eclipse.languageserver.languages.springboot/org.springframework.boot.ide.properties.application.yml=false
+//org.eclipse.languageserver.languages.springboot/org.springframework.boot.ide.xmlconfig=false
+//org.eclipse.linuxtools.docker.editor.ls.server/org.eclipse.linuxtools.docker.editor.ls=true
+//org.eclipse.wildwebdeveloper.json/org.eclipse.wildwebdeveloper.json=true
+eclipse.preferences.version=1
