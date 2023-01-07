@@ -3,3 +3,5 @@
 1672571400911	Rename method 'createBookEntry'
 1672571538591	Rename method 'createBookEntry'
 1672618711905	Rename type 'PlumsFinal'
+1672946187532	Rename method 'saveNewBook'
+1672955184684	Rename method 'createNewBook'
